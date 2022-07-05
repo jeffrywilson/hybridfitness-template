@@ -263,6 +263,60 @@
     font-size: 16px;
   }
 }
+
+/* fitness_to_live_section */
+.fitness_to_live .fitness_h2_paragraph {
+  position: relative;
+}
+
+.fitness_to_live .fitness_h2_paragraph:after{
+  content: "";
+  background: #f5d689;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: -5px;
+  width: 50px;
+  height: 3px;
+}
+
+.fitness_to_live .fitness_h2_paragraph:before{
+  content: "";
+  background: #f8dd9c;
+  display: block;
+  position: absolute;
+  left: 55px;
+  top: -5px;
+  width: 20px;
+  height: 3px;
+}
+
+.fitness_to_live .fitness_to_live_item {
+  display: flex;
+}
+
+.fitness_to_live .fitness_to_live_get_in_touch {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.fitness_to_live .fitness_to_live_get_in_touch h4 {
+  padding-left: 20px;
+}
+
+.fitness_to_live .fitness_to_live_item p {
+  font-size: 12px;
+}
+
+.fitness_to_live .yellow_circle {
+  flex-shrink: 0;
+  background: #efbc3f;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px 10px 10px 0px;
+}
+
 /*Call_bg_Section*/
 .bg_contact {
   background: url(../images/bg_12.jpg) no-repeat 0 0;

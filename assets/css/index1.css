@@ -242,10 +242,16 @@
 .triangle_box img {
   transform: rotate(-45deg);
 }
+.process_detail .header_detail {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 .process_detail h3 {
 	margin: 0px;
 	color: white;
-	text-align: left;
+  text-align: left;
+  padding-left: 20px;
 }
 .process_detail p {
 	margin: 20px 0px;

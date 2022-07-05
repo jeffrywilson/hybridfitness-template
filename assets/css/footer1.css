@@ -1,4 +1,17 @@
 /*==========Footer section style=========*/
+.main-footer {
+	background: black;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.main-footer hr {
+	border-top: 1px solid #ffffff23;
+}
+.main-footer a {
+	color: white;
+}
+
 footer ul {
 	list-style: outside none none;
 	margin: 0;

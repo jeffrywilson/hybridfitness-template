@@ -613,7 +613,7 @@
 }
 /* Testimonial */
 .testimonial_section {
-  background: url(../images/bg_99.jpg) no-repeat 0 0;
+  background: url(../images/explanation/tesimonial.png) no-repeat 0 0;
   background-size: cover;
   position: relative;
 }
@@ -624,9 +624,11 @@
   left: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.64);
+  background: rgba(255, 255, 255, 0.14);
 }
-
+.testimonial_section .section_tit h2 {
+  color: #000;
+}
 .patient_head {
   background: #1bbce8;
   position: relative;

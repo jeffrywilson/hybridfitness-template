@@ -407,6 +407,7 @@
 .courses_detail h3 {
   margin: 0px 0px 15px 0px;
   text-align: center;
+  height: 50px;
 }
 .courses_detail h3 a {
   color: #fec722;

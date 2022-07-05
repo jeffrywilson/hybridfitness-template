@@ -194,12 +194,12 @@
 .navigation .login {
   width: 100px;
   text-align: center;
-  border: 1px solid yellow;
+  border: 1px solid #efbc3f;
 }
 .navigation .signup {
   width: 100px;
   text-align: center;
-  background: yellow;
+  background: #efbc3f;
   color: black;
 }
 .header_tran .navigation .sub-nav {

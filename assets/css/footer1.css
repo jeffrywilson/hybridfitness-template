@@ -4,7 +4,33 @@
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	position: relative;
 }
+
+.main-footer:after {
+	content: "";
+	background: #0c1f3854 none repeat scroll 0 0;
+	transform: skewX(-30deg);
+	-webkit-transform: skewX(-30deg);
+	height: 100%;
+	width: 200px;
+	left: 0%;
+	position: absolute;
+	top: 0;
+}
+
+.main-footer:before {
+	content: "";
+	background: #0c1f3854 none repeat scroll 0 0;
+	transform: skewX(-30deg);
+	-webkit-transform: skewX(-30deg);
+	height: 100%;
+	width: 50px;
+	left: -70px;
+	position: absolute;
+	top: 0;
+}
+
 .main-footer hr {
 	border-top: 1px solid #ffffff23;
 }

@@ -265,11 +265,11 @@
 }
 
 /* fitness_to_live_section */
-.fitness_to_live .fitness_h2_paragraph {
+.fitness_h2_paragraph {
   position: relative;
 }
 
-.fitness_to_live .fitness_h2_paragraph:after{
+.fitness_h2_paragraph:after{
   content: "";
   background: #f5d689;
   display: block;
@@ -280,7 +280,7 @@
   height: 3px;
 }
 
-.fitness_to_live .fitness_h2_paragraph:before{
+.fitness_h2_paragraph:before{
   content: "";
   background: #f8dd9c;
   display: block;
@@ -315,6 +315,12 @@
   height: 60px;
   border-radius: 50%;
   margin: 10px 10px 10px 0px;
+}
+
+.first_fitness {
+  position: absolute;
+  left: 0;
+  top: -60px;
 }
 
 /*Call_bg_Section*/
@@ -366,7 +372,9 @@
 
 /* Courses_Section */
 .courses_popular {
-  background: #fff;
+  margin-top: 20px;
+  background: #222d35;
+  border: 1px solid gray;
 }
 .top_cours {
   position: relative;
@@ -393,11 +401,24 @@
 }
 .courses_detail {
   overflow: hidden;
+  text-align: center;
   padding: 20px 30px;
 }
 .courses_detail h3 {
   margin: 0px 0px 15px 0px;
+  text-align: center;
 }
+.courses_detail h3 a {
+  color: #fec722;
+}
+.courses_detail p {
+  color: #fff;
+}
+.courses_detail .read-more {
+  color: #fec722;
+  text-decoration: revert;
+}
+
 .start_view {
   display: inline-block;
   float: left;
@@ -805,4 +826,13 @@
 	/* background: green; */
 	padding-top: 20px;
 	padding-bottom: 40px;
+}
+
+.traning_part {
+  padding: 0px 50px;
+}
+
+.traning_part h3 {
+  color: white;
+  padding-bottom: 10px;
 }

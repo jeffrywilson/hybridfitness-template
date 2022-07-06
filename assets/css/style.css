@@ -2679,13 +2679,35 @@ figure {
 	margin-right: 0;
 }
 /*  Register and login Pages   ||-----------*/
+.page-signin {
+	background: url(../images/explanation/CompositeLayer.png) no-repeat 0 0;
+  background-size: cover;
+	position: relative;
+	height: 100vh;
+}
 .page-signin .main-body {
 	max-width: 480px;
+	padding-top: 100px;
 	margin: 10px auto;
 }
 .page-signin .body-inner {
 	position: relative;
 	padding: 0 20px 20px;
+}
+.page-signin .logo-h2 {
+	color: #efbc3f;
+}
+.page-signin .sign-up {
+	width: 100%;
+	border-radius: 1px;
+	font-weight: 600;
+}
+.page-signin .log-in {
+	width: 100%;
+	border-radius: 1px;
+	font-weight: 600;
+	color: black;
+	background: #efbc3f;
 }
 .card {
 	position: relative;
@@ -2709,7 +2731,7 @@ figure {
 	border-radius: 0 0 2px 2px;
 }
 .page-signin .card .card-content {
-	padding: 30px 20px;
+	padding: 50px;
 }
 .page-signin .logo {
 	font-size: 26px;

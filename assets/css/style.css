@@ -2708,6 +2708,7 @@ figure {
 	font-weight: 600;
 	color: black;
 	background: #efbc3f;
+	min-width: 100px;
 }
 .card {
 	position: relative;

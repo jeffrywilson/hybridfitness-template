@@ -309,6 +309,9 @@ $(document).on('ready', function() {
 			},
 			992 : {
 				items : 3
+			},
+			1024 : {
+				items : 4
 			}
 		},
 		navText : ["<i class='ion-ios-arrow-back'></i>", "<i class='ion-ios-arrow-forward'></i>"]

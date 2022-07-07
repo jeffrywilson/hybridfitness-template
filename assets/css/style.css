@@ -3900,6 +3900,10 @@ transform: scale(1);
 	background: url(../images/slider-home-construction-02.html) 0 0 no-repeat;
 	background-size: cover
 }
+.bg-img-3 {
+	background: url(../images/banner/slider3.jpg) 0 0 no-repeat;
+	background-size: cover
+}
 /*Gallery*/
 
 .gallery {

@@ -310,8 +310,34 @@ $(document).on('ready', function() {
 			992 : {
 				items : 3
 			},
-			1024 : {
+			1440 : {
 				items : 4
+			}
+		},
+		navText : ["<i class='ion-ios-arrow-back'></i>", "<i class='ion-ios-arrow-forward'></i>"]
+
+	});
+
+	//index_Courses
+	var slider_cours_home = $(".slider_cours_home");
+	slider_cours_home.owlCarousel({
+		loop : true,
+		margin : 30,
+		nav : false,
+		dots : false,
+		center : false,
+		autoplay : true,
+		autoplayTimeout : 2000,
+		autoplayHoverPause : true,
+		responsive : {
+			0 : {
+				items : 1
+			},
+			768 : {
+				items : 2
+			},
+			992 : {
+				items : 3
 			}
 		},
 		navText : ["<i class='ion-ios-arrow-back'></i>", "<i class='ion-ios-arrow-forward'></i>"]

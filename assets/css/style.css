@@ -3904,6 +3904,11 @@ transform: scale(1);
 	background: url(../images/banner/slider3.jpg) 0 0 no-repeat;
 	background-size: cover
 }
+.bg-img-home {
+	background: url(../images/explanation/user_homepage.png) 0 0 no-repeat;
+	background-size: cover
+}
+
 /*Gallery*/
 
 .gallery {

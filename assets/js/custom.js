@@ -448,7 +448,28 @@ $(document).on('ready',function() {
 		}
 	});
 
-	
+	var carouselSliderRecent = $('.carousel-slider-recent-work');
+	carouselSliderRecent.owlCarousel({
+		loop : true,
+		margin : 10,
+		nav : true,
+		dots : false,
+		navText : ["<i class='ion-ios-arrow-back'></i>", "<i class='ion-ios-arrow-forward'></i>"],
+		responsive : {
+			0 : {
+				items : 1
+			},
+			767 : {
+				items : 1
+			},
+			992 : {
+				items : 1
+			},
+			1200 : {
+				items : 1
+			}
+		}
+	});
 	
 	
 	/* ---------------------

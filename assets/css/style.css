@@ -124,7 +124,10 @@ a {
 .title_row{
 	padding-top:0px;
 }
- .inner-intro .page-breadcrumb span{
+.text-center {
+	text-align: center;
+}
+.inner-intro .page-breadcrumb span{
  	color:rgba(255, 255, 255, 0.49) !important;
  }
 /*  Padding and Margin Style   ||-----------*/
@@ -6944,6 +6947,24 @@ ul.tags li {
 		top: 7%;
 	}
 }
+/******************************************************************************
+ dashboard
+ *******************************************************************************/
+.dashboard .account-profile {
+	text-align: center;
+	padding: 30px;
+}
+.dashboard .account-profile h5 span {
+	color: #17aefb;
+}
+.dashboard .avatar-img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-size: 150px;
+	object-fit: cover;
+}
+
 /******************************************************************************
  widget_shop
  *******************************************************************************/

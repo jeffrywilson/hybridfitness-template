@@ -6186,6 +6186,7 @@ div .secondary_bg {
 	position: relative;
 	padding: 0 30px 30px;
 	width: 100%;
+	display: flex;
 }
 @media (max-width: 767px) {
 	.mb-sm-80 {
@@ -6201,8 +6202,8 @@ div .secondary_bg {
 	top: -40px;
 }
 .img-circle.img-border {
-	border: 6px solid #f5f0f0;
-	width: 80px !important;
+	border-radius: 50%;
+	width: 150px !important;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -6213,6 +6214,10 @@ div .secondary_bg {
 	font-size: 18px;
 	margin-top: -25px;
 	margin-bottom: 5px;
+}
+.testimonial-block div {
+	width: 50%;
+	text-align: left;
 }
 .testimonial-block .sub-title {
 	color: #4d5056;

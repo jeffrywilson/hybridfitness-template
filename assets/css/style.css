@@ -7002,8 +7002,14 @@ ul.tags li {
 .dashboard .today_workout {
 	padding: 20px 60px;
 }
+.dashboard .today_workout .recent-workout {
+	background: white;
+	padding: 1
+	0px;
+}
 .dashboard .today_workout .past-workout {
 	background: white;
+	padding: 10px;
 }
 .dashboard .today_workout .past-workout .item-workout {
 	display: flex;

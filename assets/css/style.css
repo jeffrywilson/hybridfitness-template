@@ -6950,9 +6950,44 @@ ul.tags li {
 /******************************************************************************
  dashboard
  *******************************************************************************/
+.dashboard {
+	background: #f6f6f6;
+}
 .dashboard .account-profile {
 	text-align: center;
-	padding: 30px;
+	padding: 30px 0px;
+}
+.dashboard .account-profile h5 {
+	font-weight: 600;
+}
+.dashboard .acount-profile-content {
+	position: relative;
+}
+.dashboard .bottom-line {
+	width: 50px;
+	height: 3px;
+	background: yellow;
+	margin: auto;
+}
+.dashboard .acount-profile-content:before {
+	content: "";
+	background: #f8dd9c;
+	display: block;
+	position: absolute;
+	left: 45px;
+	top: -3px;
+	width: 30px;
+	height: 3px;
+}
+.dashboard .acount-profile-content:after {
+	content: "";
+	background: #f8dd9c;
+	display: block;
+	position: absolute;
+	right: 45px;
+	top: -3px;
+	width: 30px;
+	height: 3px;
 }
 .dashboard .account-profile h5 span {
 	color: #17aefb;
@@ -6964,7 +6999,37 @@ ul.tags li {
 	background-size: 150px;
 	object-fit: cover;
 }
+.dashboard .today_workout {
+	padding: 20px 60px;
+}
+.dashboard .today_workout .past-workout {
+	background: white;
+}
+.dashboard .today_workout .past-workout .item-workout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.dashboard .today_workout .past-workout .item-workout img {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-size: 50px;
+	object-fit: cover;
+}
+@media (max-width: 1024px) {
+	.dashboard .today_workout .past-workout .item-workout {
+		display: block;
+		text-align: center;
+	}
+	.dashboard .account-profile p{
+		overflow: hidden;
+	}
+}
+.dashboard .today_workout .past-workout .item-workout .item-workout-content {
+	padding-left: 20px;
+}
 /******************************************************************************
  widget_shop
  *******************************************************************************/
